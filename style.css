@@ -12,15 +12,13 @@ body {
 
 .card-container{
     display: flex;
-    border-style: solid;
-    border-color: #0F7173;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .card {
     padding: 10px;
     margin: 10px;
-    border-style: solid;
-    border-color : #F05D5E;
 }
 
 img {
